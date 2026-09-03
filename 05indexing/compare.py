@@ -1,0 +1,8 @@
+print(10 == 18)
+print(12 == 12)
+print(15 != 15)
+print(15 != 16)
+print(3 > 8)
+print(10 >= 10)
+print(5 <= 10)
+print(55 < 60)
