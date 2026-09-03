@@ -14,10 +14,6 @@ print(False or False)
 print(not True)
 print(not False)
 
-#ques 21
-# and: True only when both conditions are True
-# or: True when at least one condition is True
-# not: Reverses the Boolean result
 
 #ques 22
 age = 25
