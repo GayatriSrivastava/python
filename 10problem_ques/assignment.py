@@ -1,131 +1,34 @@
 #q 1
-number=int(input())
-if number>0:
-    print("Positive")
-elif number<0:
-    print("Negative")
-else:
-    print("Zero")
+
 
 #q 2
-number=int(input())
-if number==0:
-    print("Zero")
-elif number>0 and number%2==0:
-    print("Positive Even")
-elif number>0 and number%2!=0:
-    print("Positive Odd")
-elif number<0 and number%2==0:
-    print("Negative Even")
-else:
-    print("Negative Odd")
+
 
 #q 3
-a=int(input())
-b=int(input())
-if a>b:
-    print(a)
-elif b>a:
-    print(b)
-else:
-    print("Both are equal")
+
 
 #q 4
-a=int(input())
-b=int(input())
-c=int(input())
-if a<b and a<c:
-    print(a)
-elif b<a and b<c:
-    print(b)
-else:
-    print(c)
 
 #q 5
-a=int(input())
-b=int(input())
-c=int(input())
-if a>b and a>c:
-    print(a,"is the largest")
-elif b>a and b>c:
-    print(b,"is the largest")
-else:
-    print(c,"is the largest")
+
 
 #q 6
-number=int(input())
-if number%5==0 and number%11==0:
-    print("Divisible by both 5 and 11")
-elif number%5==0:
-    print("Divisible only by 5")
-elif number%11==0:
-    print("Divisible only by 11")
-else:
-    print("Divisible by neither")
+
 
 #q 7
-number=int(input())
-if number%3==0 and number%7==0:
-    print("Divisible by both 3 and 7")
-elif number%3==0:
-    print("Divisible only by 3")
-elif number%7==0:
-    print("Divisible only by 7")
-else:
-    print("Divisible by neither")
+
 
 #q 8
-marks=int(input())
-if marks<0 or marks>100:
-    print("Invalid marks")
-elif marks>=40:
-    print("Pass")
-else:
-    print("Fail")
+
 
 #q 9
-marks=int(input())
-if marks<0 or marks>100:
-    print("Invalid marks")
-elif marks>=90:
-    print("A")
-elif marks>=80:
-    print("B")
-elif marks>=70:
-    print("C")
-elif marks>=60:
-    print("D")
-elif marks>=40:
-    print("E")
-else:
-    print("Fail")
 
 #q 10
-age=int(input())
-if age<0 or age>120:
-    print("Invalid age")
-elif age<18:
-    print("Cannot vote")
-else:
-    print("Can vote")
 
 #q 11
-year=int(input())
-if year%400==0 or (year%4==0 and year%100!=0):
-    print("Leap year")
-else:
-    print("Not a leap year")
+
 
 #q 12
-character=input()
-if character>="A" and character<="Z":
-    print("Uppercase alphabet")
-elif character>="a" and character<="z":
-    print("Lowercase alphabet")
-elif character>="0" and character<="9":
-    print("Digit")
-else:
-    print("Special character")
 
 #q 13
 character=input()

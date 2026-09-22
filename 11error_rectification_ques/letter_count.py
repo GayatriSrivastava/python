@@ -1,0 +1,7 @@
+#count how many times an alphabet came in the word.
+word= "banana"
+count=0
+for character in word:
+    if character=="a":
+        count=count+1
+print(count)
