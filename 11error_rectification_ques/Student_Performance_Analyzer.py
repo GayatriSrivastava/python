@@ -12,20 +12,20 @@ execellent=0
 for i in range(1,11):
     marks=int(input("enter marks of student:"))
 
-if marks<35:
+if(marks<35):
     print("fail")
-elif marks <= 49:
+elif(marks <= 49):
         print("Pass")
         passed += 1
-    elif marks <= 74:
+elif(marks <= 74):
         print("Good")
         good += 1
-    elif marks <= 100:
+elif(marks <= 100):
         print("Excellent")
-        excellent += 1
+        execellent += 1
 print("Pass:", passed)
 print("Good:", good)
 print("Fail:", fail)
 print("Pass:", passed)
 print("Good:", good)
-print("Excellent:", excellent)
+print("Excellent:", execellent)

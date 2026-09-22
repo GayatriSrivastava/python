@@ -13,10 +13,10 @@ long = 0
 for word in sentence.split():
     length = len(word)
     print(word, "Length:", length)
-    if length <= 3:
+    if(length <= 3):
         print("Short")
         short += 1
-    elif length <= 6:
+    elif(length <= 6):
         print("Medium")
         medium += 1
     else:

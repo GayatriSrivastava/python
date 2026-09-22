@@ -13,11 +13,11 @@ highest_word = ""
 for word in sentence.split():
     score = 0
     for ch in word:
-        if ch.lower() in "aeiou":
+        if(ch.lower() in "aeiou"):
             score += 2
-        elif ch.isalpha():
+        elif(ch.isalpha()):
             score += 1
-        elif ch.isdigit():
+        elif(ch.isdigit()):
             score += 3
         else:
             score += 4

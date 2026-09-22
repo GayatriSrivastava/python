@@ -17,13 +17,13 @@ luxury = 0
 for i in range(1, 9):
     price = int(input("Enter price: "))
     total += price
-    if price < 500:
+    if(price < 500):
         print("Budget")
         budget += 1
-    elif price <= 1999:
+    elif(price <= 1999):
         print("Regular")
         regular += 1
-    elif price <= 4999:
+    elif(price <= 4999):
         print("Premium")
         premium += 1
     else:

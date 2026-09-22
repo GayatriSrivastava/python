@@ -10,10 +10,10 @@
 for i in range(1, 6):
     password = input("Enter password: ")
     count = 0
-    if len(password) >= 8:
+    if(len(password)>=8):
         count += 1
     for ch in password:
-        if ch.isupper():
+        if(ch.isupper()):
             count += 1
             break
     for ch in password:
@@ -21,16 +21,16 @@ for i in range(1, 6):
             count += 1
             break
     for ch in password:
-        if ch.isdigit():
+        if(ch.isdigit()):
             count += 1
             break
     for ch in password:
-        if not ch.isalnum():
+        if(not ch.isalnum()):
             count += 1
             break
-    if count == 5:
+    if(count==5):
         print("Strong")
-    elif count >= 3:
+    elif(count>=3):
         print("Medium")
     else:
         print("Weak")
