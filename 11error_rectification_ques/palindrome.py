@@ -8,5 +8,5 @@ print(sum)
 if (sum==str):
     print("it is palindrome")
 else:
-    print("not palindrome")
+    print("it is not a palindrome")
     
