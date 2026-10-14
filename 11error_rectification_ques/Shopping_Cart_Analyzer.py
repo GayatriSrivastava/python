@@ -1,4 +1,4 @@
-#Take prices of 8 products.
+`Take prices of 8 products.
 #For every price:
 #Below 500 → "Budget"
 #500–1999 → "Regular"
